@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.seuprojeto'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.postgresql:postgresql:42.7.6'
+    testImplementation 'junit:junit:4.13.2'
+}
+
+sourceCompatibility = '17'
+targetCompatibility = '17'
+
